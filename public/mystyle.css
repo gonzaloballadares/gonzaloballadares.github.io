@@ -17,15 +17,6 @@
   flex-grow: 1;
 }
 
-.body {
-  background-color: #232946;
-  font-family: 'Quicksand', sans-serif;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  justify-content: center;
-
-}
-
 .displayflex {
   display: flex
 }
@@ -33,13 +24,18 @@
 .greeting {
   color: white;
   font-size: 55px;
+  text-align: center;
+  justify-content: center;
+
+  display: flex;
 }
 
 .linkicons {
   width: 48px;
   height: 48px;
   border-radius: 48px;
-
+  object-fit: cover;
+  text-decoration: none;
 }
 
 
@@ -49,53 +45,31 @@
 }
 
 .sociallink {
-  text-decoration: none;
-  color: eebbc3;
-  font-size: 30px;
   background-color: #b8c1ec;
-
   display: flex;
   align-items: center;
-
-  flex-grow: 1;
   text-align: center;
 }
 
 .sociallink a {
-  text-decoration: none;
   color: eebbc3;
-  font-size: 30px;
-  background-color: #b8c1ec;
-
-  display: flex;
-  align-items: center;
-
-  flex-grow: 1;
+  text-decoration: none;
   text-align: center;
+  flex-grow: 1;
+  font-size: 30px;
 }
 
 .otherlink {
-  text-decoration: none;
-  color: eebbc3;
-  font-size: 30px;
   background-color: #eebbc3;
-
   display: flex;
   align-items: center;
-
-  flex-grow: 1;
   text-align: center;
 }
 
 .otherlink a {
-  text-decoration: none;
   color: eebbc3;
-  font-size: 30px;
-  background-color: #eebbc3;
-
-  display: flex;
-  align-items: center;
-
-  flex-grow:1;
+  text-decoration: none;
   text-align: center;
+  flex-grow: 1;
+  font-size: 30px;
 }
