@@ -31,7 +31,7 @@
 }
 
 
-.linkheader {
+.link_header {
   color: white;
   font-size: 40px;
   text-align: center;
@@ -55,6 +55,7 @@
   display: flex;
   align-items: center;
   text-align: center;
+  padding: 5px;
 }
 
 .sociallink a {
@@ -70,6 +71,7 @@
   display: flex;
   align-items: center;
   text-align: center;
+  padding: 5px;
 }
 
 .otherlink a {
